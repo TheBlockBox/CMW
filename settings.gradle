@@ -1,0 +1,16 @@
+pluginManagement {
+    repositories {
+        jcenter()
+        maven {
+            name = 'Fabric'
+            url = 'https://maven.fabricmc.net/'
+        }
+        gradlePluginPortal()
+    }
+
+    plugins {
+        id 'fabric-loom' version loom_version
+        id "lolcode" version lolcode_version
+    }
+
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "cursedmobwaifus",
+  "version": "${version}",
+
+  "name": "Cursed Mob Waifus",
+  "description": "Adds cursed mob girls to minecraft that protect monsters (including you).",
+  "authors": [
+    "TheRebelT", "Ms. Ash", "RedstoneTim"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/cursedmobwaifus",
+    "sources": "https://github.com/TheBlockBox/CMW"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/cursedmobwaifus/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "theblockbox.cursedmobwaifus.CMW"
+    ],
+    "client": [
+      "theblockbox.cursedmobwaifus.CMWClient"
+    ]
+  },
+  "mixins": [
+    "cursedmobwaifus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.7",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+  }
+}
