@@ -3,13 +3,11 @@
     "minVersion": "0.8",
     "package": "theblockbox.cursedmobwaifus.mixin",
     "compatibilityLevel": "JAVA_8",
-    "client": [],
     "mixins": [
         "ServerWorldMixin"
     ],
-    "server": [
-        "ServerWorldMixin"
-    ],
+    "client": [],
+    "server": [],
     "injectors": {
         "defaultRequire": 1
     }
