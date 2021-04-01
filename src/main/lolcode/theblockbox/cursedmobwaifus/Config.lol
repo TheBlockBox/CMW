@@ -2,7 +2,6 @@ HAI 1.2
 CAN I HAS com.google.gson.Gson?
 CAN I HAS com.google.gson.GsonBuilder?
 CAN I HAS java.io.*?
-CAN I HAS STDIO
 
 I HAS A instance ITZ Config_new
 I HAS A percentChanceOfWaifu ITZ 10
