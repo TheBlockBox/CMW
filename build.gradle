@@ -1,7 +1,6 @@
 plugins {
     id 'fabric-loom'
     id 'maven-publish'
-	id 'lolcode-java'
 }
 
 sourceCompatibility = JavaVersion.VERSION_1_8
