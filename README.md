@@ -1,5 +1,5 @@
 # Cursed Mob Waifus
-Download at [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cursedmobwaifus) or [Modrinth](https://modrinth.com/)
+Download at [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cursedmobwaifus) or [Modrinth](https://modrinth.com/mod/cursedmobwaifus)
 
 **Cursed Mob Waifus** is a novel Minecraft 1.16 mod for Fabric based on a few old "monster girl" texture packs, which re-textured monsters to look like girls.
 
