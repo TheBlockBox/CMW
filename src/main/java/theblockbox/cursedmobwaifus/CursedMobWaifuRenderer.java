@@ -47,8 +47,10 @@ public class CursedMobWaifuRenderer extends MobEntityRenderer<CursedMobWaifuEnti
 
     @Override
     public void render(CursedMobWaifuEntity entity, float f, float g, MatrixStack matrixStack, VertexConsumerProvider vertexConsumerProvider, int i) {
-        this.model.sneaking = entity.isInSneakingPose();
-        super.render(entity, f, g, matrixStack, vertexConsumerProvider, i);
+        if(this.model != null && entity != null) {
+            this.model.sneaking = entity.isInSneakingPose();
+            super.render(entity, f, g, matrixStack, vertexConsumerProvider, i);
+        }
     }
 
     @Override
